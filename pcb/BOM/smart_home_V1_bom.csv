@@ -1,0 +1,27 @@
+BOM FILE : SMART HOME AUTOMATION SYSTEM,,,,
+           Name,         Qty,,                     Value,           Footprint
+           Buzzer,           x1,,                      ~,           ~
+           Capacitor_THT,           x1,,                     0.33nf,           CP_Radial_D8.0mm_P3.50mm
+           Capacitor_THT,           x1,,                     0.1uf,           CP_Radial_D8.0mm_P3.50mm
+           Diode,           x5,,                     1N4448,           D_DO-35_SOD27_P7.62mm_Horizontal
+           LED_THT,           x1,,                     LED,           LED_D4.0mm
+           PinHeader_1x19_2.54mm_Vertical,           x2,,                     1x19,           P2.54mm_Vertical
+           TerminalBlock_Phoenix_1x02_P5.00mm_Horizontal,           x1,,                     1x02,"           TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+           PinSocket_1x03_2.54mm_Vertical,           x6,,                     1x03,           Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+           TerminalBlock_Phoenix_1x03_P5.08mm_Horizontal,           x4,,                     1x03,"           TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+           PinSocket_1x03_P2.54mm_Vertical,           x1,,                     1x03,           Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+           Relay,           x4,,                     ~,           Relay_THT
+           Transistor_BJT_npn,           x4,,                     2N3904-npn,           Package_TO_SOT_THT:TO-92_Inline
+           Resistor_THT,           x5,,                     300ohm,           Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+           ESP32-DEVKITC-32D,           x1,,                     ~,           ~
+           PinHeader_1x04_P2.54mm_Vertical,           x1,,                     PinHeader_1x04_P2.54mm_Vertical,           Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+           Regulator_Linear:L7805,           x1,,                     L7805,           ~
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
