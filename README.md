@@ -53,8 +53,9 @@ You can find the bom csv file in the following link : https://github.com/salimto
 You find open source manufacturing files that you can use with pleasure : https://github.com/salimtoumache/IOT-HOME/blob/main/pcb/gerber.zip
 
 
+## Authors
 
-
+- [@salimtoumache](https://www.github.com/salimtoumache)
 
 
 
