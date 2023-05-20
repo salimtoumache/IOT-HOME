@@ -38,7 +38,7 @@ Am glad at the outcome of this PCB board design which I made and had manufacture
 
 ![App Screenshot](https://github.com/salimtoumache/IOT-HOME/blob/main/pcb/pcb%20manufacturing/b_lyr.jpeg)
 
-- Pcb asmbly
+- Pcb assembly
 
 ![App Screenshot](https://github.com/salimtoumache/IOT-HOME/blob/main/pcb/pcb%20assembly/1.gif)
 
