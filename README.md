@@ -49,6 +49,7 @@ Am glad at the outcome of this PCB board design which I made and had manufacture
 You can find the bom csv file in the following link : https://github.com/salimtoumache/IOT-HOME/blob/main/pcb/BOM/smart_home_V1_bom.csv
 
 - Gerber file
+
 You find open source manufacturing files that you can use with pleasure : https://github.com/salimtoumache/IOT-HOME/blob/main/pcb/gerber.zip
 
 
