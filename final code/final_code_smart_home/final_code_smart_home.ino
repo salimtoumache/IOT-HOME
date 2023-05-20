@@ -16,14 +16,14 @@
 */
 // 1) wifi -------------------------------------------------------------------------
 #include <WiFi.h>
-#define WIFI_SSID   "Galaxy A0s1655"
-#define WIFI_PASSWORD "pekg7142"
+#define WIFI_SSID   "SSID"
+#define WIFI_PASSWORD "PASSWORD"
 // 2) BD -------------------------------------------------------------------------
 #include <Firebase_ESP_Client.h>
 #include "addons/TokenHelper.h"
 #include "addons/RTDBHelper.h"
-#define API_KEY "AIzaSyBskALg-FiZSSDl1P75pq-S4dNbeFFFvXI"
-#define DATABASE_URL "https://smarthome-20565-default-rtdb.firebaseio.com/"
+#define API_KEY "API_KEY"
+#define DATABASE_URL "DATABASE_URL"
 FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
