@@ -6,8 +6,7 @@
 
   Platform       : ESP32
   Communication  : WiFi / Firebase RTDB / USB Serial
-  Mobile App     : Android
-  PC Interface   : Python / TensorFlow / CNN Face Recognition
+  PC Interface   : Face Recognition
 
   FUNCTIONS
   ---------
