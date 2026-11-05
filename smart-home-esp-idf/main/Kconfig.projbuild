@@ -1,0 +1,48 @@
+menu "Smart Home Configuration"
+
+    config SH_WIFI_SSID
+        string "WiFi SSID"
+        default "SSID"
+        help
+            Name of the WiFi network the station connects to.
+
+    config SH_WIFI_PASSWORD
+        string "WiFi password"
+        default "PASSWORD"
+        help
+            Password of the WiFi network.
+
+    config SH_FIREBASE_API_KEY
+        string "Firebase Web API key"
+        default "API_KEY"
+        help
+            Web API key of the Firebase project (Project settings -> General).
+            Anonymous authentication must be enabled for the project.
+
+    config SH_FIREBASE_DATABASE_URL
+        string "Firebase Realtime Database URL"
+        default "DATABASE_URL"
+        help
+            For example https://my-project-default-rtdb.firebaseio.com/
+
+    config SH_RELAY_ACTIVE_HIGH
+        bool "Relay modules are active HIGH"
+        default y
+        help
+            Disable this if your relay modules switch ON when the input is LOW.
+
+    config SH_FIRE_SENSOR_ACTIVE_LOW
+        bool "Fire sensor output is active LOW"
+        default y
+
+    config SH_GAS_SENSOR_ACTIVE_LOW
+        bool "Gas sensor output is active LOW"
+        default y
+
+    config SH_PIR_TRIGGERS_BUZZER
+        bool "Motion (PIR) also sounds the buzzer"
+        default y
+        help
+            Original behaviour. Disable it to reserve the buzzer for fire and gas alarms.
+
+endmenu

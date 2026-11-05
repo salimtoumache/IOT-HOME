@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "app_state.c"
+        "actuators.c"
+        "sensors.c"
+        "safety.c"
+        "cloud_sync.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        board
+        dht11
+        hcsr04
+        servo
+        wifi_sta
+        firebase_rtdb
+        serial_cmd
+    PRIV_REQUIRES
+        driver
+        json
+        nvs_flash
+        esp_timer
+)

@@ -1,0 +1,17 @@
+# Target
+CONFIG_IDF_TARGET="esp32"
+
+# Serial link with the Python application: same 9600 baud as the Arduino firmware.
+# The monitor must use the same rate:  idf.py monitor -b 9600
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_UART_BAUDRATE=9600
+
+# Plain-text logs (no ANSI colour codes) so the Python side can parse them.
+CONFIG_LOG_COLORS=n
+
+# 1 ms tick: accurate vTaskDelay()/timeouts for the sensor drivers.
+CONFIG_FREERTOS_HZ=1000
+
+# HTTPS to Firebase: verify servers against the bundled root certificates.
+CONFIG_MBEDTLS_CERTIFICATE_BUNDLE=y
+CONFIG_MBEDTLS_CERTIFICATE_BUNDLE_DEFAULT_FULL=y
